@@ -3,8 +3,8 @@
 
 ## 里程碑与检查项
 - M1：RTOS 环境跑通
-  - [ ] STM32 + RTOS 基本示例运行
-  - [ ] QEMU + initramfs Linux 启动
+  - [-] STM32 + RTOS 基本示例运行
+  - [-] QEMU + initramfs Linux 启动
 - M2：RTOS 新外设驱动 PR
   - [ ] 选定设备（I2C/SPI）
   - [ ] 驱动实现与示例任务
@@ -34,3 +34,8 @@
 - [ ] 周报（logs/weekly-log-YYYY-WW.md）
 - [ ] 月/季总结（logs 目录追加）
 - [ ] 关键实验/数据附 PR 或独立 md
+
+## 当前进度（W1 2026-01-20）
+- 已完成：Linux源码下载与编译（bzImage生成）、Busybox编译学习。
+- 进行中：RT-Thread STM32H723VGTx BSP开发（时钟树配置，准备SPI/BMI088驱动）。
+- 里程碑进展：M1 RTOS环境（STM32 BSP进行中）、M4 Linux字符驱动（QEMU环境准备中）。
