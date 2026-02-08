@@ -35,7 +35,12 @@
 - [ ] 月/季总结（logs 目录追加）
 - [ ] 关键实验/数据附 PR 或独立 md
 
-## 当前进度（W1 2026-01-20）
-- 已完成：Linux源码下载与编译（bzImage生成）、Busybox编译学习。
-- 进行中：RT-Thread STM32H723VGTx BSP开发（时钟树配置，准备SPI/BMI088驱动）。
-- 里程碑进展：M1 RTOS环境（STM32 BSP进行中）、M4 Linux字符驱动（QEMU环境准备中）。
+## 当前进度（W4 2026-02-08）
+- 已完成：
+  - Linux源码下载与编译（bzImage生成）、Busybox编译学习。
+  - RT-Thread 文档修复 PR（解决 BSP 精简导致的文件路径引用问题）。
+- 进行中：
+  - RT-Thread STM32H723VGTx BSP 开发：已配置 `board.h` (时钟/SRAM)，正处理 `SConscript` 编译脚本与 Env 工具适配。
+- 里程碑进展：
+  - M1 RTOS环境：STM32 BSP 框架初步搭建。
+  - M4 Linux侧：QEMU环境已就绪。
