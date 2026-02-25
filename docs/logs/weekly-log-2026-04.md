@@ -26,4 +26,4 @@ D5:
 - 下周计划：  
 - 需要协助/决策：
 - 备注（链接/日志/截图）：
-
+https://wiki.archlinux.org.cn/title/Main_page Arch Linux Wiki
