@@ -10,7 +10,7 @@
 - LICENSE：MIT 许可证
 
 ## 使用方式
-1. 每周/周期复制 docs/logs/weekly-log-YYYY-WW.md 模板填写。
+1. 运行 `python scripts/new_weekly_log.py` 生成本周周报模板，或通过 `python scripts/new_weekly_log.py 2026-16` 指定周次。
 2. 关键输出更新到 roadmap 和 context-journal。
 3. 需要AI助手回顾上下文时，用 context-journal。
 ---
